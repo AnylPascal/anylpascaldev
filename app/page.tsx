@@ -15,7 +15,7 @@ export default function Home() {
             rel="noopener noreferrer">
             {" "}
             <Image
-              src="/headshot.png"
+              src="/headshot2.svg"
               alt="Anyl Pascal"
               className="dark:invert"
               width={100}
