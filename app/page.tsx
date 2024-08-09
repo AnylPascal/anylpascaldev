@@ -1,4 +1,5 @@
-import Image from "next/image";
+import Form from "@/components/form";
+
 
 export default function Home() {
   return (
@@ -25,6 +26,13 @@ export default function Home() {
           </a>
         </div>
       </div>
+      <body>
+        <section className="py-24">
+          <div className="container">
+            <Form />
+          </div>
+        </section>
+      </body>
     </main>
   );
 }
