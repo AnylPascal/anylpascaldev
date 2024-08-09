@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 import Form from "@/components/form";
+=======
+import Image from "next/image";
+import ContactForm from "@/components/ContactForm";
+>>>>>>> ab01c37877576f499ab95bf23d0a3a2c8ded347d
 
 
 export default function Home() {
@@ -23,6 +28,12 @@ export default function Home() {
               height={24}
               priority
             />
+            <div className="p-4 max-w-3xl mx-auto">
+              <h1 className="text-3xl font-bold">Contact Us</h1>
+              <p>Please fill in the form below</p>
+
+              <ContactForm />
+            </div>
           </a>
         </div>
       </div>
