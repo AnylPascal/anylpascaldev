@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
-      <form
+      {/* <form
         action="https://usebasin.com/f/4ed0fc541190"
         method="POST"
         encType="multipart/form-data"
@@ -39,7 +39,7 @@ export default function RootLayout({
         <label htmlFor="file-upload">File Upload</label>
         <input type="file" name="file-upload" />
         <button type="submit">Send</button>
-      </form>
+      </form> */}
     </html>
   );
 }
